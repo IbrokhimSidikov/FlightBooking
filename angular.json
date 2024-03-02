@@ -66,6 +66,7 @@
           "defaultConfiguration": "production"
         },
         "serve": {
+          "options": {"port": 3057},
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
@@ -75,6 +76,7 @@
               "buildTarget": "FLIGHT_BOOKING_ANGULAR:build:development"
             }
           },
+          
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
